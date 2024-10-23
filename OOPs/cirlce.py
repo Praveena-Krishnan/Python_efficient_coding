@@ -5,5 +5,5 @@ class circle:
     def area(self):
         return 3.14 * (self.radius ** 2)
     
-my_circle=circle(6)
+my_circle=circle(9)
 print(my_circle.area())
