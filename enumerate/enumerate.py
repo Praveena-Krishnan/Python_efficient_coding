@@ -8,7 +8,7 @@ print(list(enumerate(l1,100)))#returns the list with count starting from 100
 
 l2=enumerate(l1)
 print(next(l2)) #like iteration, it prints the next next element. 
-
+print(next(l2))
 #reversed list enumerate function
 print(list(enumerate(reversed(l1))))#prints only the reverse of the 
 
